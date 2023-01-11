@@ -20,22 +20,30 @@
         height: 320px;
         left: 29px;
         top: 168px;
+        padding-bottom: 34px;
+        border-bottom: 1px solid #4B4B99;
     }
-        .nav {
-            display: flex;
-            flex-direction: column;
-            gap:42px;
-        }
-        .nav a {
-            display: flex;
-            flex-direction: row;
-            text-decoration: none;
-            gap: 10px;
-            color: $color-font-white;
-        }
-        .nav .active,
-        .nav a:hover {
-           background-color: $color-primary;
-        }
-    
+    .nav {
+        display: flex;
+        flex-direction: column;
+        gap:42px;
+    }
+    .nav a {
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        gap: 10px;
+        color: $color-font-white;
+        padding-left: 10px;
+    }
+    .nav .active,
+    .nav a:hover {
+        width: 263px;
+        height: 57px;            
+        background-color: $color-primary;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+    }
 }
