@@ -1,0 +1,41 @@
+.sidebar {
+    position: absolute;
+    width: 320px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    background-color: $color-base;
+    border-radius: 20px;
+
+    &__header {
+        position: absolute;
+        width: 170.21px;
+        height: 50.05px;
+        left: 28px;
+        top: 57px;
+    }
+    &__menu {
+        position: absolute;
+        width: 263px;
+        height: 320px;
+        left: 29px;
+        top: 168px;
+    }
+        .nav {
+            display: flex;
+            flex-direction: column;
+            gap:42px;
+        }
+        .nav a {
+            display: flex;
+            flex-direction: row;
+            text-decoration: none;
+            gap: 10px;
+            color: $color-font-white;
+        }
+        .nav .active,
+        .nav a:hover {
+           background-color: $color-primary;
+        }
+    
+}

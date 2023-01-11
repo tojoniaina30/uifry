@@ -1,0 +1,8 @@
+@import "./style/common/font.scss";
+@import "./style/common/color.scss";
+@import "./style/body/main.scss";
+@import "./style/body/sidebar.scss";
+
+body {
+    background-color: $color-body;
+}
