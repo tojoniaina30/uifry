@@ -26,7 +26,8 @@
     .nav {
         display: flex;
         flex-direction: column;
-        gap:42px;
+        justify-content: space-around;
+        height: inherit;
     }
     .nav a {
         display: flex;
@@ -45,5 +46,12 @@
         display: flex;
         align-items: center;
         padding-left: 15px;
+    }
+    &__about {
+        position: absolute;
+        width: 260.02px;
+        height: 185px;
+        left: 31.98px;
+        top: 530px;;
     }
 }
