@@ -1,0 +1,58 @@
+.community {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    width: 668px;
+    height: 922px;
+    margin: 0 26px 0 346px;
+    border-radius: 20px 20px 0 0;
+}   
+.com-device {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+    margin-top: 126px;
+}
+.device {
+    display: flex;
+    width: 321px;
+    height: 126px;
+    border-radius: 20px;
+    background-color: $color-base;
+    &__image {
+        margin: auto 21px auto 28px;
+    }
+
+    &__heading{
+        width: max-content;
+        margin: auto auto auto 0;
+        h2 {
+            color: $color-font-graph-grey
+        }
+        h1 {
+            color: $color-font-white;
+        }
+    }
+    
+    &__evo {
+        margin: 69px 26px auto auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 63px;
+        height: 23px;
+        color: $color-font-green;
+        border-radius: 10px;
+        background-color: $color-bg-green;
+    }
+    &__evo--red {
+        color: $color-font-red;
+        background-color: $color-bg-red;
+    }
+}
+.com-analytic {
+    width: 668px;
+    height: 382px;
+    border-radius: 20px;
+    background-color: $color-base;
+}
