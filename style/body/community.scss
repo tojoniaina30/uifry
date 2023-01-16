@@ -160,3 +160,59 @@
         }
     }
 }
+.trans-table {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: auto auto 66.16px auto;
+    width: 595.13px;
+
+    .table {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 1px;
+
+        &__name {
+            display: flex;
+            align-items: center;
+            gap: 11px;
+            width: 230px;
+            color: $color-font-blueGrey;;
+        }
+
+        &__name--white {
+            color: $color-font-white;
+        }
+
+        &__date {
+            display: flex;
+            align-items: center;
+            width: 110px;
+            color: $color-font-blueGrey;;
+        }
+
+        &__date--white {
+            color: $color-font-white;
+        }
+
+        &__status {
+            display: flex;
+            align-items: center;
+            width: 69px;
+            color: $color-font-blueGrey;;
+        }
+
+        &__status--green {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 69px;
+            height: 20px;
+            color: $color-font-green;
+            border-radius: 10px;
+            background-color: $color-bg-green;
+        }
+    }
+}
