@@ -77,13 +77,43 @@
 
       <div class="com-analytic">
         <div class="anal-head">
-          <h1 class="font-bold-xl">Analytics</h1>
+          <h1 class="anal-head__title font-bold-xl">Analytics</h1>
           <div class="anal-head__desc">
-
+            <div class="description">
+              <div class="description__dot description__dot--purple"></div>
+              <h2 class="font-bold-md">Income</h2>
+            </div>
+            <div class="description">
+              <div class=" description__dot description__dot--blue"></div>
+              <h2 class="font-bold-md">Outcome</h2>
+            </div>
           </div>
-          <div class="anal-head__desc"></div>
+          <select name="years" class="anal-head__years font-xs">
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+          </select>
         </div>
+      </div>
 
+      <div class="com-transaction">
+        <div class="trans-head">
+          <h1 class="trans-head__title font-bold-lg">Transaction</h1>
+          <div class="trans-head__search">
+            <input class="font-xxs" type="search" name="q" placeholder="Search for anything....">
+            <a href="#"><img src="Img/Community/Search.png" alt=""></a>
+          </div>
+          <div class="trans-head__calendar">
+            <img src="Img/Community/Calendar.png" alt="">
+            <select name="calendar" class="font-xs">
+              <option value=" 1 May - 10 May"> 1 May - 10 May</option>
+              <option value="11 May - 20 May">11 May - 20 May</option>
+              <option value="21 May - 31 May">21 May - 31 May</option>
+              <option value="1 June - 10 june">1 June - 10 june</option>
+            </select>
+          </div>
+        </div>
       </div>
 
     </div>

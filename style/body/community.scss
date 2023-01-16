@@ -3,7 +3,6 @@
     flex-direction: column;
     gap: 26px;
     width: 668px;
-    height: 922px;
     margin: 0 26px 0 346px;
     border-radius: 20px 20px 0 0;
 }   
@@ -55,4 +54,109 @@
     height: 382px;
     border-radius: 20px;
     background-color: $color-base;
+}
+.anal-head {
+    display: flex;
+    align-items: center;
+    margin: 19px 24px;
+
+
+    &__title {
+        color: $color-font-white;
+    }
+    &__desc {
+        display: flex;
+        align-items: center;
+        gap: 44px;
+        margin-left: auto;
+        margin-right: 33px;
+
+        .description {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+
+            &__dot {
+                height: 12px;
+                width: 12px;
+                border-radius: 10px; 
+            }
+            &__dot--purple {
+                background-color: $color-primary;
+            }
+            &__dot--blue {
+                background-color: $color-secondary;
+            }
+            h2 {
+                color: $color-font-white;
+            }
+        }       
+    }
+    &__years {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: $color-font-graph-grey;
+        width: 75px;
+        height: 27px;
+        border-radius: 10px;
+        background-color: $color-base;
+        border: 1px solid $color-font-graph-grey;
+    }
+}
+.com-transaction {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 668px;
+    height: 338px;
+    border-radius: 20px 20px 0 0;
+    background: $color-base;
+}
+.trans-head {
+    display: flex;
+    align-items: center;
+    margin: 21px 23px auto 23px;
+    justify-content: space-between;
+
+    &__title {
+        color: $color-font-white;
+    }
+
+    &__search {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 207px;
+        height: 38px;
+        background-color: $color-bg-search;
+        border-radius: 8.66947px;
+        margin-right: 10px;
+        margin-left: auto;
+
+        input {
+            background-color: inherit;
+            border: inherit;
+        }
+    }
+
+    &__calendar {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 182px;
+        height: 38px;
+        border-radius: 8.66947px;
+        border: 0.866947px solid rgba(174, 171, 216, 0.53);
+
+        select {
+            display: flex;
+            align-items: center;
+            color: $color-font-blueGrey;
+            width: 135.13px ;
+            height: 16px;
+            background-color: #1D1D41;
+            border: transparent;
+        }
+    }
 }
