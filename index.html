@@ -7,8 +7,8 @@
     <title>Finance</title>
     <link rel="stylesheet" href="style/reset.scss">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="sidebar">
@@ -141,26 +141,48 @@
             <a href="" class="table__date table__date--white font-sm">$30.09</a>
             <span class="table__status table__status--green font-xxs">Deposited</span>
           </div>
-          
         </div>
-
-        <!-- <table class="trans-table">
-          <tr class="trans-table__heading">
-            <td class="font-xs">Name</td>
-            <td class="font-xs">Date</td>
-            <td class="font-xs">Amount</td>
-            <td class="font-xs">Status</td>
-          </tr>
-
-          <tr class="trans-table__body">
-            <td class="font-sm"><img src="Img/Community/Group 1000002322.png">Adobe After Effect </td>
-            <td class="font-sm">Sat,20 Apr 2020s</td>
-            <td class="font-sm">$80.09</td>
-            <td class="font-sm">Germany</td>
-          </tr>
-        </table> -->
       </div>
 
+    </div>
+
+    <div class="value">
+      <div class="my-card">
+        <h1 class="my-card__title font-bold-xl">My Card</h1>
+        <div class="my-card__heading">
+          <h2 class="font-md">Card Balance</h2>
+          <h1 class="font-bold-xl">$15,595.015</h1>
+        </div>
+        <div class="my-card__sliding">
+
+        </div>
+        <div class="my-card__button">
+          <button class="button button--active" type="button" onclick="alert('Manage card open!')">Manage Cards</button>
+          <button class="button" type="button" onclick="alert('Transfer done!')">Transfer</button>
+        </div>
+      </div>
+
+      <div class="activity">
+        <div class="activity__heading">
+          <h1 class="font-bold-xl ">Activity</h1>
+          <select name="month" class="anal-head__years font-xs">
+            <option value="Month">Month</option>
+            <option value="Janvier">Janvier</option>
+            <option value="Fervier">Fervier</option>
+            <option value="Mars">Mars</option>
+            <option value="Avril">Avril</option>
+            <option value="Mars">Mai</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="Aout">Aout</option>
+            <option value="Sektembre">Sektembre</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+          </select>
+        </div>
+
+      </div>
     </div>
     <script type="module" src="/main.js"></script>
   </body>
