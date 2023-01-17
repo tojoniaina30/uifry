@@ -32,15 +32,16 @@
     .nav a {
         display: flex;
         flex-direction: row;
+        align-items: center;
         text-decoration: none;
+        width: 263px;
+        height: 57px;   
         gap: 10px;
         color: $color-font-white;
         padding-left: 10px;
     }
     .nav .active,
-    .nav a:hover {
-        width: 263px;
-        height: 57px;            
+    .nav a:hover {         
         background-color: $color-primary;
         border-radius: 10px;
         display: flex;

@@ -70,28 +70,8 @@
         gap: 44px;
         margin-left: auto;
         margin-right: 33px;
+    }     
 
-        .description {
-            display: flex;
-            align-items: center;
-            gap: 14px;
-
-            &__dot {
-                height: 12px;
-                width: 12px;
-                border-radius: 10px; 
-            }
-            &__dot--purple {
-                background-color: $color-primary;
-            }
-            &__dot--blue {
-                background-color: $color-secondary;
-            }
-            h2 {
-                color: $color-font-white;
-            }
-        }       
-    }
     &__years {
         display: flex;
         align-items: center;
