@@ -1,6 +1,7 @@
 import './style/style.scss'
 import { Slider } from './style/js/sliding'
 import './style/js/half-daughnut'
+import './style/js/bar'
 
 /* import { halfDaughnut } from './style/js/half-daughnut'
 
