@@ -7,8 +7,8 @@
     <title>Finance</title>
     <link rel="stylesheet" href="style/reset.scss">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="sidebar">
@@ -95,6 +95,9 @@
             <option value="2020">2020</option>
           </select>
         </div>
+        <div class="anal-graph">
+          <canvas id="badCanvas1" width="400" height="100"></canvas>
+        </div>
       </div>
 
       <div class="com-transaction">
@@ -154,7 +157,28 @@
           <h1 class="font-bold-xl">$15,595.015</h1>
         </div>
         <div class="my-card__sliding">
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="Img/Value/Card 1.png" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="Img/Value/Group 1000002335.png" alt="">
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
 
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
         </div>
         <div class="my-card__button">
           <button class="button button--active" type="button" onclick="alert('Manage card open!')">Manage Cards</button>
@@ -183,7 +207,11 @@
         </div>
 
         <div class="activity__graph">
-
+          <div class="chartCard">
+            <div class="chartBox">
+              <canvas id="myChart" height="143px"></canvas>
+            </div>
+        </div>
         </div>
 
         <div class="activity__desc">
@@ -207,6 +235,7 @@
 
       </div>
     </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
