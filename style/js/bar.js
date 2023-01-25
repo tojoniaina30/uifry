@@ -14,7 +14,7 @@ var config = {
     data: {
         labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug'],
         datasets: [{
-            label:'Janvier 2020',
+            label:'$',
             data: data,
             parsing: {
                 yAxisKey:'outcome'
@@ -25,7 +25,7 @@ var config = {
             
             
         },{
-            label:'Janvier 2020',
+            label:'$',
             data: data,
             parsing: {
                 yAxisKey:'income'
