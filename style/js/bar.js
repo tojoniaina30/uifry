@@ -22,11 +22,8 @@ var config = {
             backgroundColor: '#64CFF6',
             borderRadius: 5,
             barPercentage:0.7,
-            plugins: {
-                legend: {
-                    display: false
-                },
-            }
+            
+            
         },{
             label:'Janvier 2020',
             data: data,
@@ -36,14 +33,14 @@ var config = {
             backgroundColor: '#5A51D4',
             borderRadius: 5,
             barPercentage:0.7,
-            plugins: {
-                legend: {
-                    display: false
-                },
-            }
+            
         }],
     },
     options: {
+        plugins: {
+            legend: {
+                display: false
+            },
         scales:{
             y: {
                 beginAtZero:false,
@@ -62,5 +59,5 @@ var config = {
             }
         }
     }
-}
+}}
 var badCanvas = new Chart (canvasElement, config)
