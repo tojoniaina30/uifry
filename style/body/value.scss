@@ -1,0 +1,85 @@
+.value {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 1040px;
+    top: 126px;
+    gap: 26px;
+}
+
+.my-card {
+    width: 374px;
+    height: 433px;
+    border-radius: 20px;
+    background-color: $color-base;
+    
+    &__title {
+        margin: 18px auto 18px 24px;
+        color: $color-font-white;
+    }
+
+    &__heading {
+        margin: 0 auto 0 24px;
+        h2 {
+            color: $color-font-blueGrey;
+        }
+        h1 {
+            color: $color-font-white;
+        }
+    }
+
+    &__sliding {
+        margin: 16px auto;
+        width: 326px;
+        height: 206px;
+    }
+
+    &__button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+    }
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 374px;
+    height: 415px;
+    background-color: $color-base;
+    border-radius: 20px;
+
+    &__heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 320px;
+        height: 32px;
+
+        h1 {
+            color: $color-font-white;
+        }
+    }
+
+    &__graph {
+        width: 292px;
+        height: 143px;
+    }
+
+    &__desc {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 292px;
+        height: 45px;
+
+        h3 {
+            color: $color-font-white;
+        }
+    }
+}

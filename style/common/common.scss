@@ -1,0 +1,43 @@
+.description {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    &__dot {
+        height: 12px;
+        width: 12px;
+        border-radius: 10px; 
+    }
+    &__dot--purple {
+        background-color: $color-primary;
+    }
+    &__dot--blue {
+        background-color: $color-secondary;
+    }
+    h2 {
+        color: $color-font-white;
+    }
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-font-white;
+    width: 156px;
+    height: 48px;
+    border: 1px solid $color-font-white;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.button--active {
+    background-color: $color-primary;
+    border: inherit;
+}
+
+.button--activity {
+    flex-direction: row-reverse;
+    gap: 41px;
+    width: 299px;
+}
